@@ -1,0 +1,2610 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.65
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.5
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.0,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.3,
+        0.5,
+        1.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Tap_photosensor_PCB.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_10-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_11-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_12-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_13-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_14-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_15-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_16-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_17-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_18-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_19-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_20-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_21-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_22-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_23-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_24-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_25-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_26-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_27-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_28-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_29-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_30-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_31-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_32-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_33-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_34-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_35-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_36-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_37-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_38-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_39-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_40-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_41-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_42-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_43-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_44-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_45-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_46-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_47-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_48-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_49-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_6-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_7-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_8-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_9-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Vin"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/current limit status led"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SIG"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-SIG"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-+5V"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-GND"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Vin"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/current limit status led"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Vin"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/current limit status led"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-+5V"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-SIG"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-SIG"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-GND"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Vin"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/current limit status led"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-+5V"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-GND"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-SIG"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/current limit status led"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Vin"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-+5V"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-+5V"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-SIG"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/current limit status led"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Vin"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-GND"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Vin"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-+5V"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-SIG"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/current limit status led"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-+5V"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/current limit status led"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Vin"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-SIG"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-GND"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/current limit status led"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Vin"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-GND"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-SIG"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-+5V"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Vin"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-+5V"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-GND"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/current limit status led"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-SIG"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-+5V"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Vin"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-SIG"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/current limit status led"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-GND"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-SIG"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-+5V"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-GND"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Vin"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/current limit status led"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Vin"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-GND"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-SIG"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/current limit status led"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-+5V"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-GND"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-SIG"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-+5V"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/current limit status led"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Vin"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-+5V"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-GND"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-SIG"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Vin"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/current limit status led"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/current limit status led"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Vin"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-GND"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-+5V"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-SIG"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/current limit status led"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-SIG"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-Vin"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-+5V"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-GND"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-Vin"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-GND"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-/current limit status led"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-+5V"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-SIG"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-Vin"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/current limit status led"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-+5V"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-SIG"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-GND"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-SIG"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-Vin"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-GND"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/current limit status led"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-+5V"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/current limit status led"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-GND"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-Vin"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-+5V"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-SIG"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-Vin"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-SIG"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-GND"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-+5V"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/current limit status led"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-+5V"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-GND"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-Vin"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-SIG"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/current limit status led"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-Vin"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-+5V"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/current limit status led"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-SIG"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-GND"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-+5V"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-GND"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-SIG"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-/current limit status led"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_24-Default",
+        "pattern": "Board_24-Vin"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-+5V"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-Vin"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-/current limit status led"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-SIG"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-GND"
+      },
+      {
+        "netclass": "Board_25-Default",
+        "pattern": "Board_25-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-GND"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-/current limit status led"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-+5V"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-Vin"
+      },
+      {
+        "netclass": "Board_26-Default",
+        "pattern": "Board_26-SIG"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-+5V"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-GND"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-/current limit status led"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-Vin"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_27-Default",
+        "pattern": "Board_27-SIG"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-/current limit status led"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-+5V"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-GND"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-Vin"
+      },
+      {
+        "netclass": "Board_28-Default",
+        "pattern": "Board_28-SIG"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-GND"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-/current limit status led"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-+5V"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-Vin"
+      },
+      {
+        "netclass": "Board_29-Default",
+        "pattern": "Board_29-SIG"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-GND"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-SIG"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-Vin"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-+5V"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-/current limit status led"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_30-Default",
+        "pattern": "Board_30-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-GND"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-SIG"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-/current limit status led"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-+5V"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_31-Default",
+        "pattern": "Board_31-Vin"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-+5V"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-SIG"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-Vin"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-/current limit status led"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-GND"
+      },
+      {
+        "netclass": "Board_32-Default",
+        "pattern": "Board_32-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-+5V"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-SIG"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-Vin"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-/current limit status led"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_33-Default",
+        "pattern": "Board_33-GND"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-+5V"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-/current limit status led"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-Vin"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-GND"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_34-Default",
+        "pattern": "Board_34-SIG"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-Vin"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-GND"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-/current limit status led"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-SIG"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-+5V"
+      },
+      {
+        "netclass": "Board_35-Default",
+        "pattern": "Board_35-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-+5V"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-SIG"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-Vin"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-GND"
+      },
+      {
+        "netclass": "Board_36-Default",
+        "pattern": "Board_36-/current limit status led"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-Vin"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-+5V"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-GND"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-SIG"
+      },
+      {
+        "netclass": "Board_37-Default",
+        "pattern": "Board_37-/current limit status led"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-Vin"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-/current limit status led"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-SIG"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-+5V"
+      },
+      {
+        "netclass": "Board_38-Default",
+        "pattern": "Board_38-GND"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-/current limit status led"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-SIG"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-+5V"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-GND"
+      },
+      {
+        "netclass": "Board_39-Default",
+        "pattern": "Board_39-Vin"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-Vin"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-+5V"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-SIG"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-/current limit status led"
+      },
+      {
+        "netclass": "Board_40-Default",
+        "pattern": "Board_40-GND"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-Vin"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-SIG"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-/current limit status led"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-GND"
+      },
+      {
+        "netclass": "Board_41-Default",
+        "pattern": "Board_41-+5V"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-SIG"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-Vin"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-/current limit status led"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-+5V"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-GND"
+      },
+      {
+        "netclass": "Board_42-Default",
+        "pattern": "Board_42-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-+5V"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-/current limit status led"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-GND"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-Vin"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-SIG"
+      },
+      {
+        "netclass": "Board_43-Default",
+        "pattern": "Board_43-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-GND"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-+5V"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-/current limit status led"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-SIG"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-Vin"
+      },
+      {
+        "netclass": "Board_44-Default",
+        "pattern": "Board_44-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-+5V"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-Vin"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-SIG"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-/current limit status led"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-GND"
+      },
+      {
+        "netclass": "Board_45-Default",
+        "pattern": "Board_45-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-SIG"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-/current limit status led"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-+5V"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-Vin"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-GND"
+      },
+      {
+        "netclass": "Board_46-Default",
+        "pattern": "Board_46-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-Vin"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-GND"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-SIG"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-+5V"
+      },
+      {
+        "netclass": "Board_47-Default",
+        "pattern": "Board_47-/current limit status led"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-Vin"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-/current limit status led"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-SIG"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-+5V"
+      },
+      {
+        "netclass": "Board_48-Default",
+        "pattern": "Board_48-GND"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-+5V"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-SIG"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-Vin"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-Net-(U3-Emitter)"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-GND"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-/current limit u3 led"
+      },
+      {
+        "netclass": "Board_49-Default",
+        "pattern": "Board_49-/current limit status led"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [],
+  "text_variables": {}
+}
