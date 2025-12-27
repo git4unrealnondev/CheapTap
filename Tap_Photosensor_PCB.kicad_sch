@@ -1182,12 +1182,6 @@
 		(uuid "bc5f7d68-1c69-419e-bd88-85bab0c7f3e7")
 	)
 	(junction
-		(at 264.16 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c55e9e0e-6c84-45a2-b8eb-e9820c001496")
-	)
-	(junction
 		(at 139.7 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1585,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 41.91) (xy 270.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c994cc-a90f-4900-b25b-b39cb1a9ea54")
-	)
-	(wire
-		(pts
 			(xy 129.54 46.99) (xy 139.7 46.99)
 		)
 		(stroke
@@ -1692,6 +1676,28 @@
 			(justify right bottom)
 		)
 		(uuid "328015d3-3201-4ef7-b7d9-d3f178e60623")
+	)
+	(global_label "SIG"
+		(shape input)
+		(at 267.97 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cc2f8db-4642-4862-85a4-87cf0bfad56b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.4674 44.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+5V"
 		(shape input)
@@ -1816,28 +1822,6 @@
 		(uuid "cb78a9ca-7b34-4f2d-b853-bf9ff0e83b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.0806 22.9264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SIG"
-		(shape input)
-		(at 270.51 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efeac468-814c-4179-96e2-5745c867da69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0074 41.8306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
